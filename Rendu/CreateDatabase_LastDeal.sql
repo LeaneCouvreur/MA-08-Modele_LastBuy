@@ -136,7 +136,7 @@ CREATE TABLE [dbo].[articles](
 
     [description] [varchar](500) NOT NULL,
 
-    [availabilityy] [tinyint] NOT NULL,
+    [stock] [int] NOT NULL,
 
     [categorys] [varchar](10) NOT NULL,
 
