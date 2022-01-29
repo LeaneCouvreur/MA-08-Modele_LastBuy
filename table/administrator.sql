@@ -2,6 +2,8 @@ Use LastDeal;
 SET IDENTITY_INSERT dbo.administrators ON;
 GO
 
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com*/
+
 INSERT INTO [administrators] (id,lastname,firstname,email)
 VALUES
   (1,'Peters','Barclay','neque.sed@icloud.couk'),

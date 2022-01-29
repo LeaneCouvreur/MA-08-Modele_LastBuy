@@ -1,6 +1,10 @@
 Use LastDeal;
 SET IDENTITY_INSERT dbo.orders ON;
 GO
+
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+c'est également ce site qui à fait des paquet de 10 comme ci-dessous*/
+
 INSERT INTO [orders] (id,orderNumber,price,orderDate,orderStatus_id,customers_id,termsOfPayement_id)
 VALUES
   (1,'a81310','30.69','03.10.20',3,53,80),

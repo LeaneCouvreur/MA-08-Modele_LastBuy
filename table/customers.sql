@@ -4,6 +4,9 @@ BEGIN;
 END;
 GO
 
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+c'est également ce site qui à fait des paquet de 10 comme ci-dessous*/
+
 CREATE TABLE [customers] (
     [customersID] INTEGER NOT NULL IDENTITY(1, 1),
     [id] INTEGER NULL,

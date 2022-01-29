@@ -2,6 +2,9 @@ Use LastDeal;
 SET IDENTITY_INSERT dbo.articles ON;
 GO
 
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+c'est également ce site qui à fait des paquet de 10 comme ci-dessous*/
+
 INSERT INTO [articles] (id,type,seriesNumber,price,mark,size,color,description,availabilityy,categorys,promotions_id)
 VALUES
   (1,'#ba0f0d','08.17.18','$61.72','calvinKlein',50,'blanc','magna sed dui. Fusce',77,'femme',7),

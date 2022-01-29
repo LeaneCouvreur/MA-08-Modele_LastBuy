@@ -1,6 +1,9 @@
 Use LastDeal;
 SET IDENTITY_INSERT dbo.promotions ON;
 GO
+
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+
 INSERT INTO [promotions] (id,name,percentage,administrators_id)
 VALUES
   (1,'elit,','10',4),

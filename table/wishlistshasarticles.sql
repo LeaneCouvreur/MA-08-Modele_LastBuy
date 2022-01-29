@@ -2,6 +2,9 @@ Use LastDeal;
 SET IDENTITY_INSERT dbo.wishlists_has_articles ON;
 GO
 
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+c'est également ce site qui à fait des paquet de 10 comme ci-dessous*/
+
 INSERT INTO [wishlists_has_articles] (wishlists_id,articles_id)
 VALUES
   (25,268),

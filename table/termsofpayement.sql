@@ -2,6 +2,9 @@ Use LastDeal;
 SET IDENTITY_INSERT dbo.termsOfPayement ON;
 GO
 
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+c'est également ce site qui à fait des paquet de 10 comme ci-dessous*/
+
 INSERT INTO [termsOfPayement] (id,deliveryAdress,payementMethods,customersEmail)
 VALUES
   (1,'Ap #137-3646 Mauris St.','bvr','luctus.lobortis@google.ca'),

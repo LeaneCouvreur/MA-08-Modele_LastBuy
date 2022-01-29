@@ -2,6 +2,8 @@ Use LastDeal;
 SET IDENTITY_INSERT dbo.orderStatus ON;
 GO
 
+/*les données de cette table ont été automatiquement crées grâce au site: generatedata.com
+
 INSERT INTO [orderStatus] (id,tracking)
 VALUES
   (1,'Livrée'),
